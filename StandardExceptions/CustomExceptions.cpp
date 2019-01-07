@@ -34,7 +34,6 @@ int main()
 		std::cout << "Caught exception: " << e.what() << std::endl;
 	}
 
-
 	for (;;)
 	{
 		if (GetAsyncKeyState(VK_ESCAPE))
