@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{048A9F5E-0938-4001-8921-C0FB784D2EE9}</ProjectGuid>
-    <RootNamespace>advancedcppudemy</RootNamespace>
-    <ProjectName>BasicExceptions</ProjectName>
+    <ProjectGuid>{8C09EC5F-AC60-457E-ADFD-2A1BF822EBA1}</ProjectGuid>
+    <RootNamespace>StandardExceptions</RootNamespace>
+    <ProjectName>CustomExceptions</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -116,7 +116,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BasicExceptions.cpp" />
+    <ClCompile Include="CustomExceptions.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
